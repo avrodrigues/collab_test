@@ -16,6 +16,6 @@ Compare the results with using only the temperature as covariate*"
 
 # `main` branch
 
-The `main` branch is block for push. 
+The `main` branch is blocked for push. 
 
-All code changes should be done in a separated branch and merged to main by pull request. 
+All code changes should be done in a separated branch and merged to the `main` by pull request. 
