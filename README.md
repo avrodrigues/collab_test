@@ -14,7 +14,9 @@ Model the relationship using temperature, precipitation and aridity.
 Plot the relationship.   
 Compare the results with using only the temperature as covariate*"
 
-# `main` branch
+The first state of the script is as chatGPT provided.
+
+## `main` branch
 
 The `main` branch is blocked for push. 
 
