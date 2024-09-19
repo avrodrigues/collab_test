@@ -13,7 +13,7 @@ set.seed(123)
 n <- 100 # Number of data points
 temperature <- seq(-10, 30, length.out = n) # Temperature gradient
 precipitation <- runif(n, 40, 150) # Random precipitation values
-aridity <- runif(n, 0.1, 0.9) # Random aridity index values
+aridity <- runif(n, 0.1, 8) # Random aridity index values
 
 # Simulate diversity as a function of temperature, precipitation, and aridity
 # We assume a hypothetical relationship
