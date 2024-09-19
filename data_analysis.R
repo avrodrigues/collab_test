@@ -13,7 +13,7 @@ aridity <- runif(n, 0.1, 0.9) # Random aridity index values
 
 # Simulate diversity as a function of temperature, precipitation, and aridity
 # We assume a hypothetical relationship
-diversity <- 20 + 0.8 * temperature - 0.05 * precipitation - 10 * aridity + rnorm(n, 0, 2)
+diversity <- 20 + 0.8 * temperature + rnorm(n, 0, 2) #- 0.05 * precipitation - 10 * aridity
 
 # Create a data frame
 data <- data.frame(temperature, precipitation, aridity, diversity)
