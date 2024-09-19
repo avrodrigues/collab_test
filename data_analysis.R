@@ -43,7 +43,7 @@ p1 <- ggplot(data, aes(x = temperature, y = diversity)) +
   theme_minimal()
 
 # Print the plot
-print(p1)
+print(p1) # pretty tight relationship simulated made by ChatGTP
 
 # Compare models using summary statistics
 summary(model_full)
