@@ -2,6 +2,10 @@
 library(ggplot2)
 library(dplyr)
 
+# the code simmulates a relattionship between diversity and temperature.
+# then it analyse it using temperature, precipitaion and aridity.
+# what model will be better, only with temperature, or with the three variables
+
 # Set seed for reproducibility
 set.seed(123)
 
