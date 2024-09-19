@@ -2,7 +2,7 @@
 library(ggplot2)
 library(dplyr)
 
-# the code simmulates a relationship between diversity and temperature.
+# the code simulates a relationship between diversity and temperature.
 # then it analyse it using temperature, precipitation and aridity.
 # what model will be better, only with temperature, or with the three variables
 
