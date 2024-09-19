@@ -39,7 +39,7 @@ p1 <- ggplot(data, aes(x = temperature, y = diversity)) +
   geom_line(aes(y = pred_full, color = "Model with Temp, Precip, Aridity"), size = 1) +
   geom_line(aes(y = pred_temp, color = "Model with Temp only"), size = 1, linetype = "dashed") +
   labs(title = "Diversity vs Temperature", x = "Temperature (°C)", y = "Diversity") +
-  scale_color_manual(values = c("Model with Temp, Precip, Aridity" = "blue", "Model with Temp only" = "red")) +
+  scale_color_manual(values = c("Model with Temp, Precip, Aridity" = "yellow", "Model with Temp only" = "red")) +
   theme_minimal()
 
 # Print the plot
