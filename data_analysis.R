@@ -12,7 +12,7 @@ set.seed(123)
 # Simulate data
 n <- 100 # Number of data points
 temperature <- seq(-10, 30, length.out = n) # Temperature gradient
-precipitation <- runif(n, 30, 150) # Random precipitation values
+precipitation <- runif(n, 40, 150) # Random precipitation values
 aridity <- runif(n, 0.1, 0.9) # Random aridity index values
 
 # Simulate diversity as a function of temperature, precipitation, and aridity
@@ -43,7 +43,7 @@ p1 <- ggplot(data, aes(x = temperature, y = diversity)) +
   theme_minimal()
 
 # Print the plot
-print(p1)
+print(p1) # pretty tight relationship simulated made by ChatGTP
 
 # Compare models using summary statistics
 summary(model_full)
