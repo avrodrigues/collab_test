@@ -21,3 +21,10 @@ The first state of the script is as chatGPT provided.
 The `main` branch is block for push. 
 
 All code changes should be done in a separated branch and merged to main by pull request. 
+
+
+:::warning
+
+Testing the color of a note section
+
+:::
