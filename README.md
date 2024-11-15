@@ -28,3 +28,5 @@ All code changes should be done in a separated branch and merged to main by pull
 > Testing the color of a note section
 > 
 > Now it should work: `coding <- 1 + 1`
+
+Testing a new branch
